@@ -19,10 +19,10 @@ public class OkraskaPloshadi extends Application {
     public void start(Stage stage) throws Exception {
         Group group = new Group();
         Scene scene = new Scene(group, 800, 600);
-        Button button = new Button("Press me.");
+        Button button = new Button("Красящая");
         button.setLayoutX(200);
         button.setLayoutY(200);
-        Button button2=new Button("Return");
+        Button button2=new Button("Cтатичная");
         button2.setLayoutX(80);
         button2.setLayoutY(80);
         button.setMinSize(100,100);
